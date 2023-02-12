@@ -1,0 +1,34 @@
+a:link {
+  color: brown;
+  background-color: aqua;
+  text-decoration: wavy;
+}
+a:visited {
+  color: hotpink;
+  background-color: black;
+  padding: 80px;
+  text-decoration: dashed;
+}
+a:hover {
+  color: black;
+  background-color: hotpink;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+.l-two:link {
+  color: white;
+  background-color: blue;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.l-two:hover,
+.l-two:active {
+  background-color: red;
+  text-decoration: underline;
+}
