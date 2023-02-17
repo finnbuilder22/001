@@ -1,0 +1,41 @@
+/* #1
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+*/
+
+/*#2*/
+/*
+table {
+  width: 100%;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+*/
+table {
+  width: 100%;
+}
+table,
+td,
+th {
+  border: 1px dotted white;
+  border-style: dotted;
+  background-color: darkgrey;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
