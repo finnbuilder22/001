@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+    <link rel="icon" href="./imgAll/favicon.ico" />
+  </head>
+  <body>
+    <h2>HTML Forms</h2>
+
+    <h2>Example 1</h2>
+    <h2 style="color: blue">Text</h2>
+
+    <form action="#">
+      <label for="fname">First Name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last Name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <br />
+    <hr />
+
+    <h2>Example 2</h2>
+    <h2 style="color: blue">Radio Buttons</h2>
+
+    <p>Choose your favorite Web language:</p>
+
+    <form action="#">
+      <input type="radio" id="html" name="same" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="same" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input type="radio" id="javaScript" name="same" value="JavaScript" />
+      <label for="javaScript">JavaScript</label>
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <!--If you make the name = id then you can choose more than one radio button!-->
+
+    <br />
+    <hr />
+
+    <h2>Example 3</h2>
+    <h2 style="color: blue">Checkboxes</h2>
+    <form>
+      <input type="checkbox" id="vehicle1" name="same" value="Bike" />
+      <label for="vehicle1">I own a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="same" value="Car" />
+      <label for="vehicle2">I own a car</label><br />
+      <input type="checkbox" id="vehicle3" name="same" value="Boat" />
+      <label for="vehicle3">I own a boat</label>
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <!--By "checkbox" it seems not to matter if name is all the same or different-->
+    <br />
+    <hr />
+  </body>
+</html>
