@@ -13,8 +13,69 @@
     <h2>HTML Forms</h2>
     <br />
     <hr />
-<!--START HERE-->
+    <!--START HERE-->
+    <h2 class="title2">12 - Show a Color Picker & date</h2>
 
+    <form action="#" method="post">
+      <label for="fav_color">Select your favorit color:</label><br>
+      <input type="color" id="fav_color" name="fav_color" value="#0000ff"><br>
+      <input type="date" min="2023-02-01" max="2023-02-21">
+      <br>
+      <br>
+      <input type="submit" value="send!">
+      <input type="reset">
+    </form>
+    
+    <br>
+    <hr>
+
+    <h2 class="title2">Example 11 - Password field</h2>
+    <p>The <stong>input type="password"</stong> defines a password field</p>
+
+    <form action="#" method="post">
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" value="Email Address" /><br />
+      <label for="pwd">Password:</label><br />
+      <input type="password" if="pwd" name="pwd"  /><br /><br />
+      <input type="submit" value="Send!" />
+      <input type="reset" value="Start Over" />
+    </form>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore neque et dolore, sint sequi suscipit cupiditate est, adipisci id voluptatum quo ducimus, harum iure? Magnam, sed consequatur adipisci dignissimos esse, nihil facere harum magni inventore maxime earum velit, quibusdam repudiandae asperiores fuga officiis neque corporis mollitia doloribus omnis perferendis necessitatibus?</p>
+    <br />
+    <hr />
+    <h2 class="title2">Example 10 - The datalist Element</h2>
+
+    <p>The datalist element specifies a list of pre-defined options for an input element.</p>
+
+    <form acton="#" method="post">
+      <input list="browsers" name="browsers" />
+      <datalist id="browsers">
+        <option value="Chrome"></option>
+        <option value="Internet Explorer"></option>
+      </datalist>
+      <br /><br />
+      <input type="submit" value="Send!" />
+    </form>
+    <br />
+    <hr />
+    <h2>Example 9</h2>
+    <h3 class="title2">Grouping Form Data</h3>
+
+    <p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personalia</legend>
+        <label for="fname">First name:</label><br />
+        <input type="tex" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+        <input type="submit" value="Send!" />
+      </fieldset>
+    </form>
+    <br />
+    <hr />
     <h2>Example 8</h2>
     <h2 class="title2">The button Element</h2>
 
